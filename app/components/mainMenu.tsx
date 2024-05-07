@@ -3,7 +3,7 @@ export default function Mainmenu (){
         <>
         <div className="h-screen px-3 py-2">
              <div className="bg-secondary rounded h-full mainMenu">
-            <div className=" py-4">
+            <div className=" pt-5">
                 {/* mopper module */}
                 <div className="mopperWarp">
                  <div className=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6  mx-auto clrP hover:h-7 hover:w-7 transition-all duration-100">
