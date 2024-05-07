@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         primary : '#4D3DF6',
-        secondary: '#938eff', // Adjust this to your desired purple shade
+        secondary: '#bcb9ff', // Adjust this to your desired purple shade
           // Example secondary color (light gray)
       },
     },
