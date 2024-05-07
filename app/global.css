@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Color of the scrollbar track */
+  }
+  ::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+  }
+  
+  /* Color */
+  ::-webkit-scrollbar-thumb {
+    background:linear-gradient(43deg, #4158D0 0%, #c850c0 46%,#ffcc70 100%);
+    border-radius: 10px;/* Color of the scrollbar thumb */
+  }
+
+  html, body {
+    overflow-y: hidden;
+  }
+
 .mainMenu{
     width: 115px;
 }
@@ -7,3 +32,20 @@
 .clrP{
     color: #4D3DF6;
 }
+.headerInpt{
+    width: 230px;
+    outline: none; 
+  }  
+ .lnkOne{
+color: #4158D0;;
+}
+.lnkOne:hover{
+   background-color: #4158D0;
+   color: white;
+}
+.Linksactive{
+  background-color: #4158D0;
+   color: white;
+}
+  
+ 
