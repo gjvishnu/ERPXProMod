@@ -79,9 +79,9 @@ export default function Mainview(){
                         <div className="py-2 flex justify-between">
                           <h6 className="font-semibold text-primary">Feeds</h6>
                           <div className="flex">
-                            <h6 className="text-secondary text-xs">Recents</h6>
+                            <h6 className="clrDim text-xs">Recents</h6>
                             <h6 className="mx-2 text-primary text-xs">Friends</h6>
-                            <h6 className="text-secondary text-xs">Popular</h6>
+                            <h6 className="clrDim text-xs">Popular</h6>
                           </div>
                         </div>
                         <div className=" h-full overflow-y-hidden overflow-y-scroll">
@@ -89,7 +89,7 @@ export default function Mainview(){
                               //   Single post Start
                             <div className='post m-1 p-1 bg-blue-100 rounded-2xl' >
                             <div className='m-3 flex'>
-                            <img src={''} alt="Robert Downey Jr." className='w-10 h-10 rounded-full'/>
+                            <img src={astronut} alt="Robert Downey Jr." className='w-10 h-10 rounded-full'/>
                             <div className='ms-3'>
                               <p className='text-xs'>Name</p>
                               <p className='text-xs text-gray-500'>Date</p>
@@ -183,7 +183,7 @@ export default function Mainview(){
                   {/* follow user END */}
 
                        </div>
-                       <h6 className="ps-3 text-primary text-xs">Recommdation</h6>
+                       <h6 className="ps-3 text-primary text-xs my-2">Recommdation</h6>
                       <div className="stoireMain h-1/6  px-2 pb-2 flex space-x-1  overflow-x-hidden  overflow-x-scroll">
                    {/* {arr2.map((e)=>(
              <a> <div className="bg-black h-full w-40 bgrecom"></div></a>
